@@ -1,0 +1,623 @@
+.div1{
+  height:100px;
+  width:100%;
+  background-color:black; 
+  background-image: url(Star\ Gif.gif);
+  
+}
+
+*{
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;  
+}
+
+.div1 a{
+  padding-left: 90px;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 33px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+
+.div2{
+  background-color: none;
+  float: right;
+  width: 700px;
+}
+
+.div2 ul li{
+  display: inline;
+}
+
+.div2 ul li a{
+  color: white;
+  padding: 22px;
+  font-size: 19px;
+  position: relative;
+  top: 40px;
+  padding-left: 50px;
+  font-weight: normal;
+}
+
+.div1 span{
+  color: blue;
+}
+
+.div2 ul li a:hover{
+  color: blue;
+  transition: 0.5s ease;
+}
+
+.div1 a:hover{
+  color: blue;
+  transition: 0.5s ease;            
+}
+
+.a:hover{
+  text-shadow: 0 0 25px blue,
+               0 0 50px blue;
+  font-size: 35px;
+  transform: scale(1.1);
+}
+
+.navi{
+  width: 100%;
+  height: 600px;
+  background: gray;
+  background-image: url(1.jpg);
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  
+
+}
+
+
+
+.navi span{
+  color: blue;
+}
+
+
+.intro{
+  width: 96%;
+  height: 600px;
+  color: white;
+  padding-left: 10px;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.intro:hover{
+  padding-left: 50px;
+  transition: 2s ease;
+  opacity: 1;
+
+  
+  
+}
+
+.intro h1{
+  padding-top: 190px;
+}
+
+
+
+
+    /* Global Styles */
+    body {
+      font-family: 'poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      color: #333;
+
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 60px 0;
+    }
+
+    h2 {
+      font-size: 3em;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    /* Education Section */
+    .education-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      background-image: url(Star\ Gif.gif);
+    }
+
+    /* Education Item */
+    .education-item {
+     
+      padding: 30px;
+      width: 300px;
+      border: 1px solid #2a2c39;
+      transition: all 0.3s ease-in-out;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      height: 350px;
+    }
+
+    .education-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .education-item img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .education-item h3 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .institution {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+
+    .details {
+      font-size: 1em;
+      color: #fff;
+      margin-bottom: 20px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .education-item:hover .details {
+      opacity: 1;
+    }
+
+    /* Expandable Link */
+
+    .education-item:hover a {
+      opacity: 1;
+    }
+
+    /* Certifications Section */
+    .certifications h3 {
+      font-size: 2.5em;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .certifications ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+
+    .certifications ul li {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+      color: blue;
+    }
+
+    .container h2{
+      color: blue;
+    }
+
+    .certifications h3{
+      color: blue;
+    }
+
+    .education-item button{
+      height: 45px;
+      width: 135px;
+      border-radius: 5px;
+      color: gray;
+      border: 1px solid #2a2c39;
+      font-weight: 600;
+      background: none;
+      transition: 0.5s ease ;
+    }
+
+    .education-item button:hover{
+      color: white;
+      background-color: blue;
+      border: 1px solid white;
+      transition: 1s ease;
+    }
+
+    .G1{
+      margin-top: 15px;
+    }
+
+    .GFG{
+      margin-top: -3px;
+    }
+
+    .details{
+      font-size: 13px;
+      color: gray;
+    }
+
+    .education-section span{
+      color: white;
+    }
+
+    .intro a{
+    color: white;
+      font-size: 12px;
+      font-family: Courier;
+      transition: 0.5s ease;
+    }
+
+
+    .intro p{
+    color: blue;
+      font-size: 12px;
+      padding: 5px;
+    }
+
+    .intro i{
+      font-size: 15px;
+    }
+
+    .intro a:hover{
+      font-size: 15px;
+      transition: 1s ease; 
+    }
+
+    .intro button{
+      height: 35px;
+      width: 100px;
+      border-radius: 5px;
+      color: blue;
+      border: 1px solid #2a2c39;
+      font-weight: 600;
+      background: none;
+      transition: 0.5s ease;
+    }
+
+    .intro button:hover{
+      color: white;
+      background-color: blue;
+      border: 1px solid white;
+      transition: 1s ease;
+    }
+
+
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .d1{
+      width: 100%;
+      height: 200px;
+      background-color: black;
+      background-image: url(Star\ Gif.gif);
+    }
+    
+    .d1 h1{
+      text-align: center;
+      padding-top: 73px;
+      font-size: 40px;
+      font-family: Britannic;
+      color: white;
+    }
+    
+    .d2{
+      width: 100%;
+      height: 1200px;
+      background-color: black;
+      background-image: url(Star\ Gif.gif);
+    }
+    
+    .container2{
+      width: 820px;
+      height: 10px;
+      margin: auto;
+    }
+    
+    .img{
+    
+      width: 820px;
+      height: 400px;
+      
+      background-image: url(a.jpg);
+      background-size: 820px 400px;
+      background-repeat: no-repeat;
+    
+    }
+    
+    .info{
+      width: 186px;
+      height: 715px;
+      background-color: #252734;;
+      float: right;
+      margin-top: 375px;
+      margin-right: 22px;
+    }
+    
+    .date{
+      width: 121px;
+      height: 90px;
+      background-color: gray;
+      margin-top: 22px;
+      position: relative;
+      top: 70px;
+      margin-left: 32px;
+      border: 1px solid #2a2c39;
+      background: #2a2c39;
+      transition: 0.2s ease;
+    }
+    
+    .info h1{
+      font-size: 19px;
+      padding-left: 25px;
+      position: relative;
+      top: 40px;
+      font-family: Felix Titling;
+      color: white;
+      
+    }
+    
+    .date p{
+      font-size: 15px;
+      color: white;
+      padding-left: 10px;
+      padding-top: 20px;
+      
+    }
+    
+    .date span{
+      position: relative;
+      left: 10px;
+      font-size: 11px;
+      color: gray;
+      position: relative;
+        top: 15px;
+    
+    }
+    
+    .details1 h1{
+      padding-top: 445px;
+      color: white;
+    }
+    
+    .details1 h4{
+      color: white;
+    }
+    
+    .details1 p{
+      color: gray;
+      font-size: 12px;
+    }
+
+    .details1 span{
+      color: blue;
+    }
+    
+    .details1 h4{
+      font-size: 18px;
+    }
+    
+    .img button{
+      height: 45px;
+      width: 135px;
+      border-radius: 5px;
+      color: gray;
+      border: 1px solid white;
+      font-weight: 600;
+      background: none; 
+      transition: 0.5s ease;
+    }
+    
+    .date:hover{
+      background-color: #252734;
+      transition: 0.4s ease;
+      border: 1px solid #2a2c39 ;
+    }
+
+    .d1 span{
+      color: blue;
+    }
+
+    .info h1 span{
+      color: blue;
+    }
+
+    .img button:hover{
+      color: white;
+      background-color: blue;
+      border: 1px solid white;
+      transition: 1s ease;
+    }
+
+    .d3{
+      width: 100%;
+      height: 1400px;
+      background-image: url(Star\ Gif.gif);
+    }
+
+    .d3 h1{
+      text-align: center;
+      padding-top: 73px;
+      font-size: 40px;
+      font-family: Britannic;
+      color: white;
+    }
+
+    .exp1{
+      width: 760px;
+      height: 300px;
+      border: 1px solid #2a2c39;
+      margin-top: 50px;
+      padding-left: 44px;
+      margin-left: 15px;
+      opacity: 0.7;
+      transition: 0.3s ease;
+    }
+
+    .exp1 h1{
+      font-size: 26px;
+      padding-top: 29px;
+      text-align: justify;
+    }
+
+    .exp1:hover{
+      background-color: #252734;
+      transition: 0.5s ease;
+      border: 1px solid #2a2c39 ;
+      opacity: 0.8;
+    }
+
+  .d3 span{
+    color: blue;
+  }
+
+  .exp1 p{
+
+    color: whitesmoke;
+    font-size: 11px;
+    opacity: 0.5s;
+  }
+
+  .exp1 h5{
+    color: white;
+    font-size: 15px;
+  }
+
+  .fb{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background-image: url(Star\ Gif.gif);
+  }
+
+  .fb h1{
+    color: white;
+    padding-top: 55px;
+    font-family: Britannic;
+  }
+
+  .name{
+
+    width: 441px;
+    height: 52px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 13px;
+    color: white;
+    padding-left: 22px;
+
+  }
+
+  .fb button{
+    height: 45px;
+    width: 135px;
+    border-radius: 5px;
+    color: gray;
+    border: 1px solid white;
+    font-weight: 600;
+    background: none;
+    transition: 0.5s ease;
+  }
+
+  .fb button:hover{
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    transition: 1s ease;
+  }
+
+  .fb span{
+    color: blue;
+  }
+
+  .footer{
+    width: 100%;
+    height: 115px;
+    background-image: url(Star\ Gif.gif);
+  }
+
+
+
+
+.footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.footer .social a{
+  font-size: 18px;
+  color: white;
+  border: 2px solid white;
+  width: 25px;
+  height: 25px;
+  line-height: 27px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+
+.footer .social a:hover{
+  transform: scale(1.2)translateY(-10px);
+  color: blue;
+  border: 2px solid blue;
+}
+
+.footer ul{
+  margin-top: 0;
+  padding: 0;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a{
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+  border-bottom: 2px solid blue;
+}
+
+.footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer .copyright{
+  margin-top: 06px;
+  text-align: center;
+  font-size: 09px;
+  color: white;
+  position: relative;
+  top: 25px;
+}
+
+
+.container1{
+  width: 1345px;
+  height: 10px;
+  margin: auto;
+}
+
